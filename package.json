@@ -1,0 +1,44 @@
+{
+  "name": "react-window-resize-listener",
+  "version": "1.0.0",
+  "description": "React component for listening to window resize events",
+  "main": "lib/WindowResizeListener.js",
+  "scripts": {
+    "lint": "standard",
+    "test-local": "zuul --local --open -- ./test/WindowResizeListener.test.js",
+    "test-phantom": "zuul --phantom -- ./test/WindowResizeListener.test.js",
+    "test": "npm run lint && npm run test-phantom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cesarandreu/react-window-resize-listener.git"
+  },
+  "keywords": [
+    "reactjs",
+    "react",
+    "resize",
+    "listener",
+    "window",
+    "resize"
+  ],
+  "author": "Cesar Andreu <cesarandreu@gmail.com> (https://github.com/cesarandreu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarandreu/react-window-resize-listener/issues"
+  },
+  "homepage": "https://github.com/cesarandreu/react-window-resize-listener#readme",
+  "devDependencies": {
+    "phantomjs": "^1.9.18",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "standard": "^5.3.1",
+    "tape": "^4.2.2",
+    "zuul": "^3.7.1"
+  },
+  "dependencies": {
+    "lodash.debounce": "^3.1.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0"
+  }
+}
