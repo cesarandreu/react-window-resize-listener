@@ -36,7 +36,7 @@ ReactDOM.render(
 )
 ```
 
-### WindowResizeListener.DEBOUNCE_TIME
+### `WindowResizeListener.DEBOUNCE_TIME`
 
 Numeric value of how much time should be waited before calling each listener function. Default value is `100`.
 
