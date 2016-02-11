@@ -36,7 +36,9 @@
     "zuul": "^3.7.1"
   },
   "dependencies": {
-    "lodash.debounce": "^3.1.1"
+    "lodash.debounce": "^3.1.1",
+    "lodash.merge": "^4.1.0",
+    "lodash.omit": "^4.0.2"
   },
   "peerDependencies": {
     "react": "^0.14.0"
