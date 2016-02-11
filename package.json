@@ -5,8 +5,8 @@
   "main": "lib/WindowResizeListener.js",
   "scripts": {
     "lint": "standard",
-    "test-local": "zuul --local --open -- ./test/WindowResizeListener.test.js",
-    "test-phantom": "zuul --phantom -- ./test/WindowResizeListener.test.js",
+    "test-local": "./node_modules/.bin/zuul --local --open -- ./test/WindowResizeListener.test.js",
+    "test-phantom": "./node_modules/.bin/zuul --phantom -- ./test/WindowResizeListener.test.js",
     "test": "npm run lint && npm run test-phantom"
   },
   "repository": {
